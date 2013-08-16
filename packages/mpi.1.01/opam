@@ -1,0 +1,11 @@
+opam-version: "1.0.1"
+maintainer: "roland.laures@shamox.fr"
+build: [
+  [make "all"]
+  [make "opt"]
+  [make "install"]
+]
+remove: [
+  [make "uninstall"]
+]
+depends: ["ocamlfind"]
