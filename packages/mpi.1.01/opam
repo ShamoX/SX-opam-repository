@@ -1,4 +1,4 @@
-opam-version: "1.0.2"
+opam-version: "1"
 maintainer: "roland.laures@shamox.fr"
 build: [
   [make "all"]
